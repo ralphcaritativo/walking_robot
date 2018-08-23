@@ -1,7 +1,7 @@
 import pygame
 pygame.init()
 
-win = pygame.display.set_mode((100,100))
+win = pygame.display.set_mode((200,200))
 
 pygame.display.set_caption("Walking Robot")
 
@@ -13,7 +13,7 @@ char = pygame.image.load('stand.png')
 
 clock = pygame.time.Clock()
 
-screenWidth = 100
+screenWidth = 200
 x = 0
 y = 0
 width = 25
